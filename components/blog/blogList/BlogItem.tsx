@@ -1,11 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
+import { FunctionComponent } from "react";
 
-export const BlogItem = ({ blog }: any) => {
+type Props = {
+  blog: Blog;
+};
+
+export const BlogItem: FunctionComponent<Props> = ({ blog }) => {
   return (
     <div key={blog.slug} className="group">
       <div className="h-80 aspect-w-1 aspect-h-1 w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-40">
-        <Link legacyBehavior href={`/blogs/${blog.slug}`}>
+        <Link legacyBehavior href={`/blog/${blog.slug}`}>
           <a>
             <div className="relative h-80 aspect-w-1 aspect-h-1 w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-40">
               <Image
@@ -29,7 +34,7 @@ export const BlogItem = ({ blog }: any) => {
           <p className="mt-1 text-sm text-gray-500">{blog.description}</p>
         </div>
       </div>
-      <Link legacyBehavior href={`/blogs/${blog.slug}`}>
+      <Link legacyBehavior href={`/blog/${blog.slug}`}>
         <a className="text-sm font-bold text-gray-700">Read More</a>
       </Link>
     </div>

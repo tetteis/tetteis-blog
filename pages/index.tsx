@@ -3,6 +3,7 @@
 // const inter = Inter({ subsets: ["latin"] });
 
 import { getBlogs } from "@/lib/blogs";
+import { Blog } from "@/interfaces/Blog";
 
 import type { GetStaticProps, NextPage } from "next";
 import Link from "next/link";
@@ -11,12 +12,15 @@ import { BlogList } from "@/components/blog";
 import PortfolioList from "@/components/portfolio/portfolioList";
 import { BaseLayout } from "@/components/layout";
 
-const navigation = [
-  { name: "Blogs", href: "/blogs" },
-  { name: "Portfolio", href: "/portfolios" },
-];
+// const navigation = [
+//   { name: "Blogs", href: "/blogs" },
+//   { name: "Portfolio", href: "/portfolios" },
+// ];
+type Props = {
+  blogs: Blog[];
+};
 
-const Home: NextPage = () => {
+const Home: NextPage<Props> = ({ blogs }) => {
   return (
     <BaseLayout>
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">
@@ -25,7 +29,7 @@ const Home: NextPage = () => {
           <a className="text-sm ml-1 text-indigo-600">(See All)</a>
         </Link>
       </h2>
-      <BlogList />
+      <BlogList blogs={blogs} />
 
       <br></br>
 
@@ -43,10 +47,10 @@ const Home: NextPage = () => {
 
 export const getStaticProps: GetStaticProps = () => {
   const blogs = getBlogs();
-  console.log(blogs);
+  // console.log(blogs);
 
   return {
-    props: {},
+    props: { blogs },
   };
 };
 
