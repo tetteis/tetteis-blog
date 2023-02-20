@@ -3,12 +3,19 @@ import Head from "next/head";
 import { Navbar, Footer } from "@/components/common";
 import { FunctionComponent, PropsWithChildren } from "react";
 
-const PageLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
+type Props = {
+  pageTitle: string;
+};
+
+const PageLayout: FunctionComponent<PropsWithChildren<Props>> = ({
+  children,
+  pageTitle,
+}) => {
   return (
     <>
       <div className="mx-auto max-w-7xl px-4 space-y-8 sm:px-6 lg:px-8">
         <Head>
-          <title>Official Website - Tettei Shahday-Annang</title>
+          <title>{pageTitle}</title>
           <meta
             name="description"
             content="A place where I post my work and articles"
