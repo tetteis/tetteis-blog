@@ -11,11 +11,8 @@ import Link from "next/link";
 import { BlogList } from "@/components/blog";
 import PortfolioList from "@/components/portfolio/portfolioList";
 import { BaseLayout } from "@/components/layout";
+import { saveSearchData } from "@/lib/md";
 
-// const navigation = [
-//   { name: "Blogs", href: "/blogs" },
-//   { name: "Portfolio", href: "/portfolios" },
-// ];
 type Props = {
   blogs: Blog[];
 };
@@ -47,7 +44,8 @@ const Home: NextPage<Props> = ({ blogs }) => {
 
 export const getStaticProps: GetStaticProps = () => {
   const blogs = getBlogs();
-  // console.log(blogs);
+
+  saveSearchData(blogs);
 
   return {
     props: { blogs },
