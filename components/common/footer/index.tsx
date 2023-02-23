@@ -52,7 +52,7 @@ function Copyright() {
     <>
       &copy;
       <Link color="inherit" href="/">
-        TETTEIS
+        tetteis
       </Link>{" "}
       {new Date().getFullYear()}
     </>

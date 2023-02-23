@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next/types";
 import { PageLayout } from "@/components/layout";
 import { getBlogBySlugWithMarkdown, getBlogsSlugs } from "@/lib/blogs";
-import { Blog } from "@interfaces/Blog";
+import { Blog } from "@/interfaces/Blog";
 import { ParsedUrlQuery } from "querystring";
 import { BlogHeader } from "@/components/blog";
 
