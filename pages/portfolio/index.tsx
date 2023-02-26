@@ -1,8 +1,9 @@
+import { GetStaticProps, NextPage } from "next";
+
 import { PageLayout } from "@/components/layout";
 import { PortfolioList } from "@/components/portfolio";
 import { Portfolio } from "@/interfaces/Portfolio";
 import { getPortfolios } from "@/lib/portfolios";
-import { GetStaticProps, NextPage } from "next";
 
 type Props = {
   portfolio: Portfolio[];

@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+
 import { BlogItem } from "./BlogItem";
 import { Blog } from "@/interfaces/Blog";
 

@@ -1,5 +1,7 @@
 import Link from "next/link";
+
 import { navigation } from "../navbar/navigation";
+
 const socialLinks = [
   {
     name: "Facebook",

@@ -1,8 +1,9 @@
+import { FunctionComponent, PropsWithChildren } from "react";
+
 import Head from "next/head";
 import Image from "next/image";
 
 import { Header, Navbar, Footer } from "@/components/common";
-import { FunctionComponent, PropsWithChildren } from "react";
 
 const BaseLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
   return (

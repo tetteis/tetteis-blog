@@ -1,8 +1,9 @@
+import { GetStaticProps, NextPage } from "next";
+
 import { BlogList } from "@/components/blog";
 import { PageLayout } from "@/components/layout";
 import { Blog } from "@/interfaces/Blog";
 import { getBlogs } from "@/lib/blogs";
-import { GetStaticProps, NextPage } from "next";
 
 type Props = {
   blog: Blog[];

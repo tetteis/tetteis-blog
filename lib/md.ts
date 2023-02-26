@@ -1,15 +1,17 @@
+import fs from "fs";
+import { join } from "path";
+
+import matter from "gray-matter";
+import { remark } from "remark";
+import html from "remark-html";
+import remarkGfm from "remark-gfm";
+
 import {
   ContentItemName,
   MarkdownContent,
   MarkdownItem,
   SearchContent,
 } from "./../interfaces/Markdown";
-import fs from "fs";
-import { join } from "path";
-import matter from "gray-matter";
-import { remark } from "remark";
-import html from "remark-html";
-import remarkGfm from "remark-gfm";
 
 const getDir = (path: string) => join(process.cwd(), path);
 

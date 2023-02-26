@@ -1,9 +1,8 @@
-import { getBlogs } from "@/lib/blogs";
-import { Blog } from "@/interfaces/Blog";
-
 import type { GetStaticProps, NextPage } from "next";
 import Link from "next/link";
 
+import { getBlogs } from "@/lib/blogs";
+import { Blog } from "@/interfaces/Blog";
 import { BlogList } from "@/components/blog";
 import PortfolioList from "@/components/portfolio/portfolioList";
 import { BaseLayout } from "@/components/layout";

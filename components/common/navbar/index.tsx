@@ -1,9 +1,11 @@
 import { Fragment } from "react";
+
 import Link from "next/link";
 import Image from "next/image";
 
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
 import { navigation } from "./navigation";
 import { ContentSearch } from "@/components/search";
 
@@ -20,7 +22,6 @@ const Navbar = () => {
         <polygon points="50,0 100,0 50,100 0,100" />
       </svg>
 
-      {/* NAVIGATION START */}
       <Popover>
         <div className="relative px-4 pt-6 sm:px-6 lg:px-8">
           <nav
@@ -119,7 +120,6 @@ const Navbar = () => {
           </Popover.Panel>
         </Transition>
       </Popover>
-      {/* NAVIGATION END */}
     </>
   );
 };

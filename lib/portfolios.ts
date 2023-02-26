@@ -1,3 +1,5 @@
+import { join } from "path";
+
 import { Portfolio } from "./../interfaces/Portfolio";
 import {
   getAllItems,
@@ -6,7 +8,6 @@ import {
   getItemInPath,
   markdownToHtml,
 } from "@/lib/md";
-import { join } from "path";
 
 const PORTFOLIO_DIR = getDir("/content/portfolios");
 

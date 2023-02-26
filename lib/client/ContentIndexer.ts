@@ -1,5 +1,6 @@
-import { SearchContent } from "./../../interfaces/Markdown";
 import * as JsSearch from "js-search";
+
+import { SearchContent } from "./../../interfaces/Markdown";
 import { getLocalSearchIndex } from "./utils";
 
 class ContentIndexer {

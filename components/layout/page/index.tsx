@@ -1,7 +1,8 @@
+import { FunctionComponent, PropsWithChildren } from "react";
+
 import Head from "next/head";
 
 import { Navbar, Footer } from "@/components/common";
-import { FunctionComponent, PropsWithChildren } from "react";
 
 type Props = {
   pageTitle: string;

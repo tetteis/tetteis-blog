@@ -1,7 +1,8 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Image from "next/image";
-import { PageLayout } from "@/components/layout";
 import { ParsedUrlQuery } from "querystring";
+
+import { PageLayout } from "@/components/layout";
 import {
   getPortfolioBySlugWithMarkdown,
   getPortfoliosSlugs,

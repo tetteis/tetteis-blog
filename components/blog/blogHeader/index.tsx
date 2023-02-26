@@ -1,11 +1,13 @@
+import { FunctionComponent } from "react";
+
 import Image from "next/image";
 
 import { Blog } from "@/interfaces/Blog";
-import { FunctionComponent } from "react";
 
 type Props = {
   blog: Blog;
 };
+
 const BlogHeader: FunctionComponent<Props> = ({ blog }) => {
   return (
     <div className="blog-detail-header">

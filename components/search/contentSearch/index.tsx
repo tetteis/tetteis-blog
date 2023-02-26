@@ -1,9 +1,11 @@
+import { ChangeEvent, useEffect, useRef, useState } from "react";
+
+import { useRouter } from "next/router";
+
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 
 import contentIndexer from "@/lib/client/ContentIndexer";
-import { ChangeEvent, useEffect, useRef, useState } from "react";
 import { SearchContent } from "@/interfaces/Markdown";
-import { useRouter } from "next/router";
 
 const ContentSearch = () => {
   const ref = useRef<HTMLInputElement>(null);
