@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FunctionComponent } from "react";
 import { Blog } from "@/interfaces/Blog";
+import { makePostContentShort } from "@/lib/client/utils";
 
 type Props = {
   blog: Blog;
@@ -30,9 +31,11 @@ export const BlogItem: FunctionComponent<Props> = ({ blog }) => {
         <div>
           <h3 className="text-sm text-gray-700 font-bold">
             <span aria-hidden="true" className="inset-0" />
-            {blog.title}
+            {makePostContentShort(blog.title)}
           </h3>
-          <p className="mt-1 text-sm text-gray-500">{blog.description}</p>
+          <p className="mt-1 text-sm text-gray-500">
+            {makePostContentShort(blog.description)}
+          </p>
         </div>
       </div>
       <Link legacyBehavior href={`/blog/${blog.slug}`}>

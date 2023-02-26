@@ -1,11 +1,11 @@
 import { SearchContent } from "./../../interfaces/Markdown";
-import searchIndex from "@/content/search/index.json";
 import * as JsSearch from "js-search";
+import { getLocalSearchIndex } from "./utils";
 
 class ContentIndexer {
   private static instance: ContentIndexer;
 
-  // definite assignment asssertion
+  // definite assignment assertion
   private searchEngine!: JsSearch.Search;
 
   public static get Instance() {
@@ -25,7 +25,7 @@ class ContentIndexer {
     this.searchEngine = new JsSearch.Search("slug");
     this.searchEngine.addIndex("title");
     this.searchEngine.addIndex("description");
-    this.searchEngine.addDocuments(searchIndex);
+    this.searchEngine.addDocuments(getLocalSearchIndex());
   }
 }
 

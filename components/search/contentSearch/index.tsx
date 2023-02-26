@@ -3,9 +3,11 @@ import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import contentIndexer from "@/lib/client/ContentIndexer";
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 import { SearchContent } from "@/interfaces/Markdown";
+import { useRouter } from "next/router";
 
 const ContentSearch = () => {
   const ref = useRef<HTMLInputElement>(null);
+  const router = useRouter();
   const [results, setResults] = useState<SearchContent[]>([]);
   const [query, setQuery] = useState("");
 
@@ -78,7 +80,7 @@ const ContentSearch = () => {
           {results.map((result) => (
             <li
               key={result.slug}
-              onClick={() => {}}
+              onClick={() => router.push(`/${result.category}/${result.slug}`)}
               className={`hover:bg-indigo-600 hover:text-white p-3 relative cursor-pointer`}
             >
               <div className="font-bold text-sm truncate">{result.title}</div>

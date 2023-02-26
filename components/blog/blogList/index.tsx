@@ -1,6 +1,3 @@
-// import Link from "next/link";
-// import Image from "next/image";
-
 import { FunctionComponent } from "react";
 import { BlogItem } from "./BlogItem";
 import { Blog } from "@/interfaces/Blog";

@@ -1,3 +1,6 @@
+import { Portfolio } from "@/interfaces/Portfolio";
+import { Blog } from "@/interfaces/Blog";
+
 export interface MarkdownItem {
   title: string;
   description: string;
@@ -5,7 +8,13 @@ export interface MarkdownItem {
   slug: string;
   date: string;
 }
+export interface MarkdownContent {
+  blog: Blog[];
+  portfolio: Portfolio[];
+}
+
+export type ContentItemName = keyof MarkdownContent;
 
 export interface SearchContent extends Partial<MarkdownItem> {
-  category: string;
+  category: ContentItemName;
 }
