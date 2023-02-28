@@ -40,7 +40,7 @@ const Navbar = () => {
                       height={30}
                       alt="Official logo for Tettei Shahday-Annang"
                       className="h-8 w-auto sm:h-10"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                      src="https://delinvon.sirv.com/tetteis/logos/tetteis-logo.svg"
                     />
                   </a>
                 </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
                     height={20}
                     width={20}
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    src="/tetteis-logo.svg"
                     alt=""
                   />
                 </div>
@@ -107,15 +107,9 @@ const Navbar = () => {
                   </Link>
                 ))}
               </div>
-              <div className="px-4">
+              <div className="p-4">
                 <ContentSearch />
               </div>
-              <a
-                href="#"
-                className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
-              >
-                Log in
-              </a>
             </div>
           </Popover.Panel>
         </Transition>

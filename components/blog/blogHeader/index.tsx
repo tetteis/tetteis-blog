@@ -41,7 +41,7 @@ const BlogHeader: FunctionComponent<Props> = ({ blog }) => {
           </div>
         </div>
         <div className="flex self-end">
-          {/* Social Links Here */} <SocialLinks />
+          <SocialLinks />
         </div>
       </div>
       <h1 className="font-bold text-4xl mb-1">{blog.title}</h1>

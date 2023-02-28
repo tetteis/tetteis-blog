@@ -6,7 +6,7 @@ import SocialLinks from "../socialLinks";
 function Copyright() {
   return (
     <>
-      &copy;
+      &copy;&nbsp;
       <Link color="inherit" href="/">
         tetteis
       </Link>{" "}

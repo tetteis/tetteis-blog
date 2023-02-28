@@ -19,7 +19,7 @@ const Home: NextPage<Props> = ({ blog, portfolio }) => {
   return (
     <BaseLayout>
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-        Newest Blogs
+        Latest Articles
         <Link legacyBehavior href="/blog">
           <a className="text-sm ml-1 text-indigo-600">(See All)</a>
         </Link>
@@ -29,7 +29,7 @@ const Home: NextPage<Props> = ({ blog, portfolio }) => {
       <br></br>
 
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-        Portfolios
+        Portfolio List
         <Link legacyBehavior href="/portfolio">
           <a className="text-sm ml-1 text-indigo-600">(See All)</a>
         </Link>
