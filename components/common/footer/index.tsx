@@ -35,7 +35,7 @@ const Footer = () => {
         </nav>
         <SocialLinks />
         <p className="mt-8 text-center text-base text-gray-400">
-          <Copyright />, All rights reserved.
+          <Copyright />
         </p>
       </div>
     </footer>
