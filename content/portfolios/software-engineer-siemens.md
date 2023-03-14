@@ -1,6 +1,7 @@
 ---
 title: Software Engineer Siemens
 description: Working as C++ and C# software engineer
+portfolioLink: https://rhemafromgod.com/
 employee: Tettei Shahday-Annang
 employmentTime: 10
 employeeImage: https://delinvon.sirv.com/tetteis/logos/tetteis-profile.jpg

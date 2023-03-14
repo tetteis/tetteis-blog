@@ -6,6 +6,7 @@ export interface MarkdownItem {
   description: string;
   content: string;
   slug: string;
+  portfolioLink: string;
   date: string;
 }
 export interface MarkdownContent {
