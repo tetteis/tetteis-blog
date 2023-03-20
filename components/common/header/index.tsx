@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+
 const Header = () => {
   return (
     <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
@@ -9,8 +11,26 @@ const Header = () => {
           <span className="block text-indigo-600 xl:inline">Welcome! 👋🏼</span>
         </h1>
         <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-          My name is Tettei Shahday-Annang and I am a Blockchain Developer. Feel
-          free to check my working experience and blogs about tech topics.
+          <RoughNotationGroup show>
+            My name is Tettei Shahday-Annang and I am a{" "}
+            <RoughNotation type="highlight" multiline={true} color="yellow">
+              Front-End Developer
+            </RoughNotation>
+            . I am available for{" "}
+            <RoughNotation type="underline" color="#9B1FE8" padding={0}>
+              fulltime
+            </RoughNotation>
+            ,{" "}
+            <RoughNotation type="underline" color="gold" padding={0}>
+              contract
+            </RoughNotation>{" "}
+            or{" "}
+            <RoughNotation type="underline" padding={0} color="#EEBFAA">
+              freelance
+            </RoughNotation>{" "}
+            work. Feel free to check my working experience and blogs about tech
+            topics.
+          </RoughNotationGroup>
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">
