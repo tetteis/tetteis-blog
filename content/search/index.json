@@ -6,9 +6,33 @@
     "category": "blog"
   },
   {
-    "slug": "software-engineer-siemens",
-    "title": "Software Engineer Siemens",
-    "description": "Working as C++ and C# software engineer",
+    "slug": "developer-portfolio-v1",
+    "title": "Developer Portfolio v1.0",
+    "description": "React | Next.js | Tailwind CSS",
+    "category": "portfolio"
+  },
+  {
+    "slug": "developer-portfolio-v2",
+    "title": "Developer Portfolio v2.0",
+    "description": "React | Next.js | Typescript | Tailwind CSS | MDX",
+    "category": "portfolio"
+  },
+  {
+    "slug": "monty-consultancy",
+    "title": "Monty Consultancy",
+    "description": "Astro | Tailwind CSS",
+    "category": "portfolio"
+  },
+  {
+    "slug": "prince-apori",
+    "title": "Prince Apori",
+    "description": "React | Next.js | Tailwind CSS | MDX | Headless UI",
+    "category": "portfolio"
+  },
+  {
+    "slug": "rhema-from-god",
+    "title": "Rhema from God",
+    "description": "React | Next.js | TailwindCSS | MDX",
     "category": "portfolio"
   }
 ]
