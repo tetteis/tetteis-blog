@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Instead of relying on third-party dependencies such as databases and content management systems, we store blog and portfolio items locally and fetch the data stored in markdown files. We parse the frontmatter to extract the formatted data and then provide the fetched content to the pages where it's displayed in the application.
+
+We have implemented a search functionality that allows all content presented on the website to be searched via the input component provided in the navigation bar. The site content is used to build a local search index that is stored as a JSON file and fed as a data source to the search component.
+
 ## Getting Started
 
 First, run the development server:
@@ -14,13 +18,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can start editing the page by modifying the pages in `pages/` directory. The components can also by modified in the `components/` directory. The page auto-updates as you edit the file.
 
 ## Learn More
 
@@ -35,4 +33,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
