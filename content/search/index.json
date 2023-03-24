@@ -6,12 +6,6 @@
     "category": "blog"
   },
   {
-    "slug": "markdown-full-example",
-    "title": "Markdown Extensive Example",
-    "description": "Learn how to write markdown",
-    "category": "blog"
-  },
-  {
     "slug": "developer-portfolio-v2",
     "title": "Developer Portfolio v2.0",
     "description": "React | Next.js | Typescript | Tailwind CSS | MDX",

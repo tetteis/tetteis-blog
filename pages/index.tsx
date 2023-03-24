@@ -19,16 +19,6 @@ const Home: NextPage<Props> = ({ blog, portfolio }) => {
   return (
     <BaseLayout>
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-        Latest Articles
-        <Link legacyBehavior href="/blog">
-          <a className="text-sm ml-1 text-indigo-600">(See All)</a>
-        </Link>
-      </h2>
-      <BlogList blogs={blog} />
-
-      <br></br>
-
-      <h2 className="text-2xl font-bold tracking-tight text-gray-900">
         Portfolio List
         <Link legacyBehavior href="/portfolio">
           <a className="text-sm ml-1 text-indigo-600">(See All)</a>
@@ -36,6 +26,16 @@ const Home: NextPage<Props> = ({ blog, portfolio }) => {
       </h2>
 
       <PortfolioList portfolios={portfolio} />
+      <br></br>
+      <hr className="mt-8 mb-8" />
+
+      <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+        Latest Articles
+        <Link legacyBehavior href="/blog">
+          <a className="text-sm ml-1 text-indigo-600">(See All)</a>
+        </Link>
+      </h2>
+      <BlogList blogs={blog} />
     </BaseLayout>
   );
 };
@@ -53,8 +53,7 @@ export const getStaticProps: GetStaticProps = () => {
 
   return {
     props: {
-      // slice is applied to shorten the blog and portfolio
-      // list to just 4 entries on the homepage
+      // show just 4 entries for portfolio and blog items on homepage
       blog: blog.slice(0, 4),
       portfolio: portfolio.slice(0, 4),
     },
