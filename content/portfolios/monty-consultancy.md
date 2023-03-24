@@ -3,12 +3,15 @@ title: Monty Consultancy
 description: Astro | Tailwind CSS
 portfolioLink: https://www.montyconsultancy.com
 coverImage: https://delinvon.sirv.com/tetteis/portfolio/montyconsultancy.png
-date: "2022-05-20"
+date: "2022-10-20"
 highlights: [
   "Astro",
   "Tailwind CSS",
 ]
 ---
-This has been my all time favourite project because I've been able to maintain it since 2011, when I learnt to develop websites. Initially I used to share my religious beliefs on Facebook and a good Nigerian friend advised that I develop a blog to share my views instead of social media.  
 
-I've seen this website go from the normal Facebook posts, to Google's Blogger, to WordPress and now to Next.JS! Yes, it's survived many generations 😅. Through it I've developed a ton of experience migrating from project to project, solving all the challenges I encountered on the way.
+During my conversation with the Founder and CEO of Monty Safety Consultancy and General Supplies, we discussed the advantages of establishing an online presence, including the use of a customized, professional email. We talked about how having an online presence could provide a competitive advantage.
+
+Rather than having people call all the time, the business could have potential customers submit their queries online and receive a prompt response. Additionally, a well-designed website would provide credibility and legitimacy in the eyes of potential clients. The website could also expand the company's reach beyond their local area and serve as a powerful marketing tool to promote their safety consultancy services.
+
+Mr. Montford was in agreement with these points, and as a result, the company decided to create a website. I was responsible for choosing the appropriate tech stack, and ultimately decided on the Astro framework to minimize the use of JavaScript. I also chose to use Tailwind CSS, my favorite CSS framework, for styling the website.

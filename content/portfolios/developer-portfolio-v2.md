@@ -3,13 +3,15 @@ title: Developer Portfolio v2.0
 description: React | Next.js | Typescript | Tailwind CSS | MDX
 portfolioLink: https://tetteis.com
 coverImage: https://delinvon.sirv.com/tetteis/portfolio/devfolio2.png
-date: "2022-05-20"
+date: "2023-03-18"
 highlights: [
   "React",
   "Next.js",
+  "Typescript",
   "Tailwind CSS",
+  "MDX"
 ]
 ---
-This has been my all time favourite project because I've been able to maintain it since 2011, when I learnt to develop websites. Initially I used to share my religious beliefs on Facebook and a good Nigerian friend advised that I develop a blog to share my views instead of social media.  
-
-I've seen this website go from the normal Facebook posts, to Google's Blogger, to WordPress and now to Next.JS! Yes, it's survived many generations 😅. Through it I've developed a ton of experience migrating from project to project, solving all the challenges I encountered on the way.
+This is my all-time favorite personal portfolio project. The fact that I built it using modern architecture gives me great peace of mind. Although it wasn't easy working with TypeScript since I'm still getting familiar with this superset of the JavaScript language, I love it! 😍
+  
+In the future, I look forward to writing more blog posts as I explore further into the web development space, particularly as web3 becomes more prevalent. I'm very enthusiastic about learning more about blockchain technology. Watch this space for more articles.

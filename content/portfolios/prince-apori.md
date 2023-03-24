@@ -12,6 +12,8 @@ highlights: [
   "Headless UI"
 ]
 ---
-This has been my all time favourite project because I've been able to maintain it since 2011, when I learnt to develop websites. Initially I used to share my religious beliefs on Facebook and a good Nigerian friend advised that I develop a blog to share my views instead of social media.  
+After working on their company website, Prince was impressed with my work, which led to several more engagements. Eventually, I had the opportunity to work on his personal website, as a serial entrepreneur and pan-African youth activist.
 
-I've seen this website go from the normal Facebook posts, to Google's Blogger, to WordPress and now to Next.JS! Yes, it's survived many generations 😅. Through it I've developed a ton of experience migrating from project to project, solving all the challenges I encountered on the way.
+Despite the many design changes I had to implement based on Prince's requirements, I didn't disappoint him. I used Next.js and Tailwind CSS to build the website, and he loved the final design. I felt as though I had won! 🎉
+
+My philosophy is to make my clients happy, and everyone who has worked with me can attest to that. There's nothing like having someone recommend you for more jobs.
