@@ -14,7 +14,7 @@ const BlogDetail: NextPage<Props> = ({ blog }) => {
   return (
     <>
       <PageLayout pageTitle={blog.title}>
-        <div className="w-2/3 m-auto">
+        <div className="lg:w-2/3 m-auto">
           <BlogHeader blog={blog} />
 
           <article className="prose lg:prose-lg markdown-image-50">
