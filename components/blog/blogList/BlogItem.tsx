@@ -19,7 +19,7 @@ export const BlogItem: FunctionComponent<Props> = ({ blog }) => {
             <div className="relative h-80 aspect-w-1 aspect-h-1 w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-40">
               <Image
                 priority
-                layout="fill"
+                fill
                 objectFit="cover"
                 src={blog.coverImage}
                 className="rounded-lg hover:cursor-pointer"

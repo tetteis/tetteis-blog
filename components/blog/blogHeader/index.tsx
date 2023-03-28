@@ -20,7 +20,7 @@ const BlogHeader: FunctionComponent<Props> = ({ blog }) => {
               <div className="relative h-10 w-10 !mb-0">
                 <Image
                   priority
-                  layout="fill"
+                  fill
                   objectFit="cover"
                   className="rounded-full"
                   src={blog.authorImage}

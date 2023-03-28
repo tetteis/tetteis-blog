@@ -45,7 +45,7 @@ const BaseLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
           <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <Image
               priority
-              layout="fill"
+              fill
               alt=""
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
               src="https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
