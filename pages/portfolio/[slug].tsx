@@ -25,14 +25,14 @@ const PortfolioDetail: NextPage<Props> = ({ portfolio }) => {
           </div>
           <div className="mt-4 lg:row-span-3 lg:mt-0 relative">
             <Image
-              layout="fill"
+              fill
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
               alt=""
               src={portfolio.coverImage}
             />
           </div>
 
-          <div className="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pb-16 lg:pr-8">
+          <div className="py-3 lg:py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pb-16 lg:pr-8">
             <div className="mt-10">
               <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
 
