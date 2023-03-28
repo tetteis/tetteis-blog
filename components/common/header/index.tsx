@@ -17,7 +17,7 @@ const Header = () => {
               Front-End Developer
             </RoughNotation>
             . I am available for{" "}
-            <RoughNotation type="underline" color="#9B1FE8" padding={0}>
+            <RoughNotation type="underline" color="#5651E5" padding={0}>
               fulltime
             </RoughNotation>
             ,{" "}
@@ -25,7 +25,7 @@ const Header = () => {
               contract
             </RoughNotation>{" "}
             or{" "}
-            <RoughNotation type="underline" padding={0} color="#EEBFAA">
+            <RoughNotation type="underline" padding={0} color="#DE875F">
               freelance
             </RoughNotation>{" "}
             work. Feel free to check my working experience and blogs about tech
