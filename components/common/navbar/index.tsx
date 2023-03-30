@@ -38,7 +38,7 @@ const Navbar = () => {
                     <Image
                       width={30}
                       height={30}
-                      alt="Official logo for Tettei Shahday-Annang"
+                      alt="Tettei Shahday-Annang's logo"
                       className="h-8 w-auto sm:h-10"
                       src="https://delinvon.sirv.com/tetteis/logos/tetteis-logo.svg"
                     />
@@ -87,8 +87,8 @@ const Navbar = () => {
                     height={20}
                     width={20}
                     className="h-8 w-auto"
-                    src="/tetteis-logo.svg"
-                    alt=""
+                    src="https://delinvon.sirv.com/tetteis/logos/tetteis-logo.svg"
+                    alt="Tettie Shahday-Annang's logo"
                   />
                 </div>
                 <div className="-mr-2">
