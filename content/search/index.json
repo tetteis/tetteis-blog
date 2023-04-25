@@ -8,13 +8,13 @@
   {
     "slug": "tee-shop",
     "title": "Tee Shop",
-    "description": "React | React Router | CSS | CLSX | Firebase | Stripe",
+    "description": "React | React Router | Stripe | Firebase",
     "category": "portfolio"
   },
   {
-    "slug": "developer-portfolio-v2",
-    "title": "Developer Portfolio v2.0",
-    "description": "React | Next.js | Typescript | Tailwind CSS | MDX",
+    "slug": "tetteis-blog",
+    "title": "Tetteis Blog",
+    "description": "Next.js | Typescript | MDX | Tailwind CSS",
     "category": "portfolio"
   },
   {
@@ -24,21 +24,21 @@
     "category": "portfolio"
   },
   {
-    "slug": "developer-portfolio-v1",
-    "title": "Developer Portfolio v1.0",
-    "description": "React | Next.js | Tailwind CSS",
+    "slug": "devfolio",
+    "title": "Devfolio",
+    "description": "Next.js | Tailwind CSS",
     "category": "portfolio"
   },
   {
     "slug": "prince-apori",
     "title": "Prince Apori",
-    "description": "React | Next.js | Tailwind CSS | MDX | Headless UI",
+    "description": "Next.js | MDX | Headless UI | Tailwind CSS",
     "category": "portfolio"
   },
   {
     "slug": "rhema-from-god",
     "title": "Rhema from God",
-    "description": "React | Next.js | TailwindCSS | MDX",
+    "description": "Next.js | TailwindCSS | MDX",
     "category": "portfolio"
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: Prince Apori
-description: React | Next.js | Tailwind CSS | MDX | Headless UI
+description: Next.js | MDX | Headless UI | Tailwind CSS
 portfolioLink: https://www.princeapori.com
 coverImage: https://delinvon.sirv.com/tetteis/portfolio/princeapori.png
 date: "2022-05-20"

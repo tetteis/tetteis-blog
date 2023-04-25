@@ -1,15 +1,14 @@
 ---
-title: Developer Portfolio v2.0
-description: React | Next.js | Typescript | Tailwind CSS | MDX
+title: Tetteis Blog
+description: Next.js | Typescript | MDX | Tailwind CSS
 portfolioLink: https://tetteis.com
-coverImage: https://delinvon.sirv.com/tetteis/portfolio/devfolio2.png
+coverImage: https://delinvon.sirv.com/tetteis/portfolio/tetteisblog.png
 date: "2023-03-18"
 highlights: [
-  "React",
   "Next.js",
   "Typescript",
+  "MDX",
   "Tailwind CSS",
-  "MDX"
 ]
 ---
 

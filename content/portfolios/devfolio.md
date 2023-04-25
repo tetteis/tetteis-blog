@@ -1,11 +1,10 @@
 ---
-title: Developer Portfolio v1.0
-description: React | Next.js | Tailwind CSS
+title: Devfolio
+description: Next.js | Tailwind CSS
 portfolioLink: https://devfolio-tetteis.vercel.app
-coverImage: https://delinvon.sirv.com/tetteis/portfolio/devfolio1.png
+coverImage: https://delinvon.sirv.com/tetteis/portfolio/devfolio.png
 date: "2022-05-20"
 highlights: [
-  "React",
   "Next.js",
   "Tailwind CSS",
 ]

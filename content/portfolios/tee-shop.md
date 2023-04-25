@@ -1,16 +1,14 @@
 ---
 title: Tee Shop
-description: React | React Router | CSS | CLSX | Firebase | Stripe
+description: React | React Router | Stripe | Firebase
 portfolioLink: https://tee-shop-one.vercel.app
 coverImage: https://delinvon.sirv.com/tetteis/portfolio/teeshop.png
 date: "2023-04-25"
 highlights: [
   "React",
   "React Router",
-  "CSS",
-  "CLSX",
-  "Firebase",
   "Stripe",
+  "Firebase"
 ]
 ---
 

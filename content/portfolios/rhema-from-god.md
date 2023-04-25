@@ -1,6 +1,6 @@
 ---
 title: Rhema from God
-description: React | Next.js | TailwindCSS | MDX
+description: Next.js | TailwindCSS | MDX
 portfolioLink: https://rhemafromgod.com/
 coverImage: https://delinvon.sirv.com/tetteis/portfolio/rhemafromgod.png
 date: "2011-08-20"
