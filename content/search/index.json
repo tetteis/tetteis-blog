@@ -6,6 +6,12 @@
     "category": "blog"
   },
   {
+    "slug": "tee-shop",
+    "title": "Tee Shop",
+    "description": "React | React Router | CSS | CLSX | Firebase | Stripe",
+    "category": "portfolio"
+  },
+  {
     "slug": "developer-portfolio-v2",
     "title": "Developer Portfolio v2.0",
     "description": "React | Next.js | Typescript | Tailwind CSS | MDX",
