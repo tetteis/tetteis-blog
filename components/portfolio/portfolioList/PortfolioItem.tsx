@@ -12,7 +12,7 @@ export const PortfolioItem: FunctionComponent<Props> = ({ portfolio }) => {
   return (
     <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
       <Image
-        layout="fill"
+        fill
         src={portfolio.coverImage}
         alt={portfolio.title}
         className="h-full w-full object-cover object-center group-hover:opacity-10"

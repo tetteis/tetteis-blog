@@ -20,7 +20,7 @@ export const BlogItem: FunctionComponent<Props> = ({ blog }) => {
               <Image
                 priority
                 fill
-                objectFit="cover"
+                style={{ objectFit: "cover" }}
                 src={blog.coverImage}
                 className="rounded-lg hover:cursor-pointer"
                 alt={""}
